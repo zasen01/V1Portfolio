@@ -57,19 +57,30 @@ header nav {
      font-weight: lighter;
      font-size: 1.50vw;
  }
+ /*Nav Styling End*/
 
  .banner {
      background-image: url(../images/background.jpg);
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
-     background-position: 70%;
+     background-position: 80%;
      align-items: flex-start;
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
-
         }
+
+.quote {
+    margin: 60px 60px 60px 60px;
+}
+.quote p {
+    background-color: var(--main-bgcolor);
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Banner Styling End*/
         
 /*Styling for Left Side Menu*/
 .section-title{
@@ -86,6 +97,25 @@ header nav {
     border-color: var(--main-font-color);
 }
 
+/*styling main body of content alignment*/
+.content {  
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.content p {
+    display:inline-flex;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+
+}
+
+
 footer{
     background: var(--header-footer-color);
     width: 100%;
@@ -95,9 +125,5 @@ footer{
 }
 
 
-#email {
-    background-image: url(../images/cemail-icon.png);
-    display: inline;
-    size: auto;
 
-}
+/*Media Query for Screen Sizes*/
