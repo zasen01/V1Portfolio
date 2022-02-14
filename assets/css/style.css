@@ -1,0 +1,103 @@
+/* Styling for main page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+/*Main Colors*/
+:root
+{
+ --main-bgcolor: #c6d8ff ;
+ --header-footer-color: #5f94df ;
+ --main-font-color: #6b5ca5 ;
+ --bold-font-color: #72195a ;
+}
+/*Main Body Styling*/
+body {
+    background-color: var(--main-bgcolor);
+    color: var(--main-font-color);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+/*Navigation Styling*/
+
+header 
+{
+    padding: 20px 35px;
+    background-color: var(--header-footer-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
+header h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--bold-font-color);
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color:var(--bold-font-color)
+}
+header nav {
+    margin: 7px 0;
+}
+ header nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+ }
+
+ header nav ul li a {
+     padding: 10px 15px;
+     font-weight: lighter;
+     font-size: 1.50vw;
+ }
+
+ .banner {
+     background-image: url(../images/background.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background-position: 70%;
+     align-items: flex-start;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+
+        }
+        
+/*Styling for Left Side Menu*/
+.section-title{
+    font-size: 45px;
+    color: var(--main-font-color);
+    border-right: 3px solid;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 30%;
+    justify-content: left;
+
+}
+.border {
+    border-color: var(--main-font-color);
+}
+
+footer{
+    background: var(--header-footer-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#email {
+    background-image: url(../images/cemail-icon.png);
+    display: inline;
+    size: auto;
+
+}
