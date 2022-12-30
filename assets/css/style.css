@@ -98,6 +98,7 @@ header nav ul li a {
 }
 
 /*Banner Styling End*/
+
 /* STYLE ALL SECTION TAGS */
 section {
     padding: 60px;
@@ -148,6 +149,19 @@ section {
     text-align: center;
 
 }
+
+.project {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .projects {
+    margin: 20px;
+    flex: 1;
+  }
 
 footer {
     background: var(--header-footer-color);
